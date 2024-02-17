@@ -135,7 +135,7 @@ function EditScreen({navigation}) {
             placeholder="Phone Number"
             value={emgPhone}
             onChangeText={value => setEmgPhone(value)}></TextInput>
-          <Text style={style.generalText}>Relationship</Text>
+          <Text style={style.generalText}> Relationship </Text>
           <TextInput
             style={style.userEditInput}
             activeUnderlineColor="#DC989A"
@@ -152,7 +152,7 @@ function EditScreen({navigation}) {
             style={style.editButton}
             onPress={editDetail}
             >
-            <Text style={style.userEdit}>Save</Text>
+            <Text style={style.userEdit2}>Save</Text>
           </TouchableOpacity>
         </View>
     </SafeAreaView>

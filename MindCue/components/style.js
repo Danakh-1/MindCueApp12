@@ -660,6 +660,7 @@ const style = StyleSheet.create({
     gap: 6,
     paddingRight: 70,
     borderRadius: 15,
+    width:270
   },
   profileContainer3: {
     justifyContent: 'center',
@@ -687,7 +688,7 @@ const style = StyleSheet.create({
   },
   userEmail: {
     fontFamily: 'Lexend-Regular',
-    fontSize: 14,
+    fontSize: 18,
     color: '#638184',
     marginBottom: 20,
   },
@@ -695,6 +696,12 @@ const style = StyleSheet.create({
     fontFamily: 'Poppins-Bold',
     fontSize: 14,
     color: '#638184',
+  },
+  userInfoAd: {
+    fontFamily: 'Poppins',
+    fontSize: 14,
+    color: '#638184',
+    marginLeft:45
   },
   userECInfo: {
     fontFamily: 'Lexend-Regular',
@@ -706,6 +713,7 @@ const style = StyleSheet.create({
     fontSize: 14,
     color: '#DC989A',
     marginTop: 15,
+    marginLeft:12
   },
   userEdit1:{
     fontFamily: 'Lexend-Regular',
@@ -713,6 +721,13 @@ const style = StyleSheet.create({
     color: '#DC989A',
     marginTop: 10,
     marginLeft:12
+  },
+  userEdit2:{
+    fontFamily: 'Lexend-Regular',
+    fontSize: 14,
+    color: '#DC989A',
+    marginTop: 10,
+    marginLeft:160
   },
   userEditInput : {
     width: 280,

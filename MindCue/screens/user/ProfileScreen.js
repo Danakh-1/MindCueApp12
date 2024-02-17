@@ -17,7 +17,7 @@ function ProfileScreen({navigation}) {
   const {setaccessToken,setuserData} = useContext(AuthContext);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
+  const [phone, setPhone] = useState('96622338');
   const [emgName, setEmgName] = useState('');
   const [emgPhone, setEmgPhone] = useState('');
   const [relationship, setRelationship] = useState('');
@@ -36,7 +36,7 @@ function ProfileScreen({navigation}) {
         const user = response.data;
         setName(user?.name);
         setEmail(user?.email);
-        setPhone(user?.phone);
+        setPhone("96622338");
         setEmgName(user?.EMGName);
         setEmgPhone(user?.EMGphone);
         setRelationship(user?.EMGRelationship);
@@ -65,27 +65,28 @@ function ProfileScreen({navigation}) {
         <Text style={style.userInfo}>User Info</Text>
         <View style={style.profileContainer2}>
           <Text style={style.userInfo}>
-            Phone: <Text style={style.userECInfo}>{phone}</Text>
+          Phone: <Text style={style.userECInfo}>{phone}</Text>
           </Text>
           <Text
             style={{
               fontFamily: 'Poppins-Bold',
               width: '100%',
-
-              fontSize: 18,
+              fontSize: 15,
               color: '#638184',
             }}>
             Emergency Contact Info
           </Text>
           <Text style={style.userInfo}>
-            Emergency Person: <Text style={style.userECInfo}>{emgName}</Text>
-          </Text>
+           Name: 
+           </Text>
+    <Text style={style.userECInfo}>{emgName}</Text>
 
-          <Text style={style.userInfo}>Emergency Phone:</Text>
+          <Text style={style.userInfo}> Phone:</Text>
           <Text style={style.userECInfo}>{emgPhone}</Text>
           <Text style={style.userInfo}>
-            Relationship:<Text style={style.userECInfo}>{relationship}</Text>
-          </Text>
+            
+            Relationship:         </Text><Text style={style.userECInfo}>{relationship}</Text>
+ 
         </View>
         <Text
           style={style.userEdit}

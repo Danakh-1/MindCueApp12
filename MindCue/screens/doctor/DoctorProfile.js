@@ -65,10 +65,10 @@ function DoctorProfile({navigation}) {
         <Text style={style.userEmail}>{email}</Text>
         <Text style={style.userInfo}>Clinic Info</Text>
         <View style={style.profileContainer2}>
-          <Text style={style.userInfo}>Phone:</Text>
-          <Text style={style.userECInfo}>{phone}</Text>
+          <Text style={style.userInfo}>Phone:  
+          <Text style={style.userECInfo}>{96622338}</Text></Text>
           <Text style={style.userInfo}>Address:</Text>
-          <Text style={style.userECInfo}>{address}</Text>
+          <Text style={style.userInfoAd}>{address}</Text>
         </View>
         <Text
           style={style.userEdit}
