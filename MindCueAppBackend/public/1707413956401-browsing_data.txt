@@ -1,0 +1,10 @@
+Start Time: 2/8/2024, 8:39:06 PM
+End Time: 2/8/2024, 8:39:16 PM
+URLs:
+chrome://extensions/
+chrome://extensions/
+https://www.youtube.com/watch?v=xl0NMRAnqbA
+https://www.youtube.com/watch?v=Llour2YvsiI
+https://www.youtube.com/watch?v=8GEQReB54ZI
+
+Alert Names:
